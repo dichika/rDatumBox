@@ -2,15 +2,14 @@ rDatumBox
 =========
 This is DatumBox API client for R.
 
+This package requires APIkey at [DatumBox](http://www.datumbox.com/users/register/). 
+
 ## Example
 ```
-# At first, you have to get APIkey at DatumBox.
-# http://www.datumbox.com/users/register/
-
 library(devtools)
 install_github("dichika/rDatumBox")
 
-yourkey <- "Your APIkey"
+yourkey <- "Your APIkey" # http://www.datumbox.com/users/register/
 yourtxt <- "Hello, this is rDatumBox."
 
 library(rDatumBox)
